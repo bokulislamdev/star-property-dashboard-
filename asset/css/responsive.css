@@ -1,0 +1,141 @@
+
+@media only screen and (max-width:991px) {
+    .input-form-subscribe input {
+	min-width: 345px;
+    }
+    .contact-other-section{
+        width: 100%;
+    }
+    .contact-other-box{
+        width: 100%;
+    }
+    .contact-other-section {
+    margin-top: 0;
+    }
+}
+
+
+@media only screen and (max-width:767px) {
+    header {
+        height: 65px;
+    }
+    .subscribe-box{
+        display: block;
+    }
+   
+
+    .copyright-section p{
+        text-align: center;
+    }
+    .copyright-right{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .copyright-section p{
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:575px) {
+    body {
+        font-size: 13px;
+    }
+
+    .logo img {
+	max-width: 140px;
+    }
+    header {
+	height: 55px;
+    }
+    .logo i {
+	font-size: 18px;
+    }
+    .home h1 {
+	font-size: 45px;
+    }
+    .section-title h2 {
+	font-size: 34px;
+    }
+    .about-text h4 {
+	font-size: 33px;
+    }
+    .about-text img {
+	height: 32px;
+    }
+    .mobileAdd {
+	width: 100%;
+    }
+    .page-title h2 {
+	font-size: 34px;
+    }
+    .page-title p {
+        font-size: 14px;
+    }
+    .page-title p {
+        font-size: 14px;
+    }
+    .attorney-text h2 {
+	font-size: 34px;
+    }
+    .attorney-box h4 a {
+	font-size: 18px;
+    }
+    .attorney-flow a i {
+	margin-right: 0;
+	margin-left: 10px;
+    }
+    .case-details-head h4 {
+	font-size: 26px;
+    }
+    .faq-details-main h4 {
+	font-size: 22px;
+	font-weight: 700;
+    }
+    .case-details-head .iconss {
+	margin-right: 15px;
+    }
+    .contact-other-box{
+        display: block;
+    }
+    .section-title.faq h2 {
+    font-size: 25px;
+    }
+    .faq-contact-signgle{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .faq-contact-signgle.right{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .history-head h2{
+        font-size: 35px;
+    }
+    .history-box-head{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .history-box-head p{
+        margin: 0 auto;
+    }
+    .practice-area-box h6 {
+    font-size: 22px;
+    }
+    .attorney-ins-box h2{
+        font-size: 28px;
+    }
+
+}
+
+
+@media only screen and (max-width:400px) {
+    body {
+        font-size: 13px;
+    }
+
+
+    
+}

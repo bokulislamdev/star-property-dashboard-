@@ -1,0 +1,57 @@
+
+:root {
+    --pc: #282828;
+    --sc: #0A6B4F;
+    --wc: #ffffff;
+    --gc: #cccccc;
+    --gc2: #848484;
+    --bc: #000000;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--pc);
+    font-family: 'Inter', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+p {
+    line-height: 24px;
+    color: var(--pc);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pc);
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+}
+button {
+    border: none;
+}

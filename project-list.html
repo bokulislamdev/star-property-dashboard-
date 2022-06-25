@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--    GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--    BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- Google FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FONTAWSOME6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!--    FEATHER ICON-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--    SLICK-->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <!--    MAIN CSS-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid d-flex align-items-center">
+            <div class="dashboard-logo">
+                <a href="#">
+                    <img src="asset/logo/logo.png" alt="">
+                </a>
+            </div>
+            <div class="c-panel d-flex align-items-center">
+                <h4>CP Home</h4>
+            </div>
+        </div>
+    </header>
+    <!--    HEADER END-->
+
+    <!--    HEADER MENU-->
+    <section class="header-menu">
+        <div class="header-menu-top container-fluid py-2">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <a href="#">HOME</a>
+                    <a href="#">Projects</a>
+                </div>
+                <div>
+                    <a href="#" class="d-username">Md Bokul Islam</a>
+                    <span>|</span>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu-middle container-fluid pt-2">
+            <ul>
+                <li class="d-m-active"><a href="#">Projects</a></li>
+                <li><a href="#">Heat Map</a></li>
+                <li><a href="#">Duplicate Projects</a></li>
+            </ul>
+        </div>
+        <div class="header-menu-bottom container-fluid">
+            <a href="#" class="d-m-active">Projects</a>
+            <a href="#">Add Project</a>
+            <a href="#">Approved Projects<span>(123)</span> </a>
+            <a href="#">Edited Projects</a>
+            <a href="#">Pending Projects for QC</a>
+            <a href="#">Pending Projects for DC</a>
+            <a href="#">Rejected by QC Projects<span>(234)</span></a>
+            <a href="#">Deleted Projects<span>(234)</span></a>
+
+        </div>
+    </section>
+    <!--    HEADER MENU END-->
+
+    <!--    SEARCH SECTION-->
+    <section class="d-search-section py-5">
+        <div class="container">
+            <div class="d-search-box">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>ID :</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>name :</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>devloper :</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>added by :</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>start dade(added):</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>end dade(added):</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>city:</span>
+                                </div>
+                                <div>
+                                    <select name="" id="">
+                                        <option value="">dhaka</option>
+                                        <option value="">rangpur</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>location:</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>start date (updated):</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>end date (updated):</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <div class="d-input-box">
+                                <div>
+                                    <span>status:</span>
+                                </div>
+                                <div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 py-2">
+                            <button class="btn btn-sm btn-primary" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--    SEARCH SECTION-->
+
+    <!--    TABLE SECTION-->
+    <section class="d-table-section py-5">
+        <div class="container">
+           <div class="d-table-top">
+               <a href="javascript:void(0)">all(13)</a>
+               <a href="javascript:void(0)">approved(234)</a>
+               <a href="javascript:void(0)">edited(134)</a>
+               <a href="javascript:void(0)">pending QC(545)</a>
+               <a href="javascript:void(0)">pending DC(234)</a>
+               <a href="javascript:void(0)">rejected QC(6845)</a>
+               <a href="javascript:void(0)">deleted(856)</a>
+           </div>
+            <div class="d-table-main table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">id</th>
+                            <th scope="col">title</th>
+                            <th scope="col">devloper</th>
+                            <th scope="col">location</th>
+                            <th scope="col">collected/approved/ <br> total/listing</th>
+                            <th scope="col">added by</th>
+                            <th scope="col">date added</th>
+                            <th scope="col">date uddate</th>
+                            <th scope="col">basicinfo status</th>
+                            <th scope="col">feture status</th>
+                            <th scope="col">flooring status</th>
+                            <th scope="col">status</th>
+                            <th scope="col">controls</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td>1</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-end d-dropdown" aria-labelledby="dropdownMenu2">
+                                        <div class="custom-toggle">
+                                            <a href="#" class="text-primary" data-bs-toggle="tooltip" title="View"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="#" class="text-warning" data-bs-toggle="tooltip" title="edit"><i class="fa-solid fa-pencil"></i></a>
+                                            <form action="#" method="POST" style="display: inline-block">
+                                                <button type="button">
+                                                    <span class="text-danger" data-bs-toggle="tooltip" title="Delete"><i class="fa-solid fa-trash-can"></i></span>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                                                <tr>
+
+                            <td>2</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-end d-dropdown" aria-labelledby="dropdownMenu2">
+                                        <div class="custom-toggle">
+                                            <a href="#" class="text-primary" data-bs-toggle="tooltip" title="View"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="#" class="text-warning" data-bs-toggle="tooltip" title="edit"><i class="fa-solid fa-pencil"></i></a>
+                                            <form action="#" method="POST" style="display: inline-block">
+                                                <button type="button">
+                                                    <span class="text-danger" data-bs-toggle="tooltip" title="Delete"><i class="fa-solid fa-trash-can"></i></span>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!--    TABLE SECTION END-->
+
+
+
+    <!--    JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--    BOOSTRAP-->
+    <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--    SLICK-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script>
+        //        MOBILE MENU
+        function mobileClick() {
+            $("#mobile-menu").toggleClass('mobileAdd');
+            $("#dashboard").toggleClass('dashboardAdd');
+
+        }
+        //        MOBILE MENU END
+
+        //        $(window).scroll(function() {
+        //            $('header').toggleClass('scrolled', $(this).fadeIn().scrollTop() > 65);
+        //        });
+
+        //FEATHER ICON
+        feather.replace()
+
+
+        //for count
+        $('.counter').each(function() {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+
+            $({
+                countNum: $this.text()
+            }).animate({
+                countNum: countTo
+            }, {
+                duration: 6000,
+                easing: 'linear',
+                step: function() {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                    $this.text(this.countNum);
+                }
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

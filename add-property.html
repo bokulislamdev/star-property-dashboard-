@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--    GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--    BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- Google FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FONTAWSOME6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!--    FEATHER ICON-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--    SLICK-->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <!--    MAIN CSS-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid d-flex align-items-center">
+            <div class="dashboard-logo">
+                <a href="#">
+                    <img src="asset/logo/logo.png" alt="">
+                </a>
+            </div>
+            <div class="c-panel d-flex align-items-center">
+                <h4>CP Home</h4>
+            </div>
+        </div>
+    </header>
+    <!--    HEADER END-->
+
+    <!--    HEADER MENU-->
+    <section class="header-menu">
+        <div class="header-menu-top container-fluid py-2">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <a href="#">HOME</a>
+                    <a href="#">Projects</a>
+                </div>
+                <div>
+                    <a href="#" class="d-username">Md Bokul Islam</a>
+                    <span>|</span>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu-middle container-fluid pt-2">
+            <ul>
+                <li class="d-m-active"><a href="#">Projects</a></li>
+                <li><a href="#">Heat Map</a></li>
+                <li><a href="#">Duplicate Projects</a></li>
+            </ul>
+        </div>
+        <div class="header-menu-bottom container-fluid">
+            <a href="#">Projects</a>
+            <a href="#" class="d-m-active">Add Project</a>
+            <a href="#">Approved Projects<span>(123)</span> </a>
+            <a href="#">Edited Projects</a>
+            <a href="#">Pending Projects for QC</a>
+            <a href="#">Pending Projects for DC</a>
+            <a href="#">Rejected by QC Projects<span>(234)</span></a>
+            <a href="#">Deleted Projects<span>(234)</span></a>
+
+        </div>
+    </section>
+    <!--    HEADER MENU END-->
+
+    <!--    DASHBOARD FORM-->
+    <section class="py-5">
+        <div class="container">
+            <div class="d-form">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>servey ID </span>
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>project title <b>*</b></span>
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>building number</span>
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>country</span>
+                            </div>
+                            <div>
+                                <select name="" id="">
+                                    <option value="">bangladesh</option>
+                                    <option value="">india</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>devloper</span>
+                            </div>
+                            <div>
+                                <select name="" id="">
+                                    <option value="">bangladesh</option>
+                                    <option value="">india</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-input-box d-input-checkbox py-2">
+                            <div>
+                                <span>project type</span>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-checkbox">
+                                        <h6>Residential</h6>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Apartments</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Rooms</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Penthouser</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Duplex</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Plazas</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Buildings</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Plots</label>
+                                        </div>
+                                    </div>
+                                    <div class="d-checkbox">
+                                        <h6>Commercial</h6>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Offices</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Shops</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Open Floor</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Office Apartment</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Duplex</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Plazas</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Plots</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Warehouse</label>
+                                        </div>
+                                        <div class="d-flex align-items-center py-1">
+                                            <input type="checkbox">
+                                            <label for="">Factory</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Plot Size</span>
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Covered Area</span>
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Area Unit</span>
+                            </div>
+                            <div>
+                                <select name="" id="" cols="30" rows="10">
+                                    <option value="">katha</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Road Size</span>
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Total Units</span>
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Number Of Floors</span>
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                          <div class="d-input-box py-2">
+                            <div>
+                                <span>Constructions Status</span>
+                            </div>
+                            <div>
+                                <select name="" id="" cols="30" rows="10">
+                                    <option value="">Under constraction</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Price Currency</span>
+                            </div>
+                            <div>
+                                <select name="" id="" cols="30" rows="10">
+                                    <option value="">BDT - Bangladesh</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Build In Year</span>
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Description</span>
+                            </div>
+                            <div>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                                                <div class="d-input-box py-2">
+                            <div>
+                                <span>Project Location</span>
+                            </div>
+                            <div>
+                                <select name="" id="">
+                                    <option value="">Bangladesh</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2">
+                            <div>
+                                <span>Maps</span>
+                            </div>
+                            <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29207.25652681819!2d90.41200259823678!3d23.78632348293979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7b71894d7cb%3A0x725a1e9ba77a8744!2sBadda%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1656160089967!5m2!1sen!2sbd" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="d-input-box py-2 mt-3">
+                            <div>
+                                
+                            </div>
+                            <div>
+                                <button class="btn btn-success btn-sm">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+  
+
+                        
+      
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    DASHBOARD FORM END-->
+
+
+
+
+    <!--    JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--    BOOSTRAP-->
+    <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--    SLICK-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script>
+        //        MOBILE MENU
+        function mobileClick() {
+            $("#mobile-menu").toggleClass('mobileAdd');
+            $("#dashboard").toggleClass('dashboardAdd');
+
+        }
+        //        MOBILE MENU END
+
+        //        $(window).scroll(function() {
+        //            $('header').toggleClass('scrolled', $(this).fadeIn().scrollTop() > 65);
+        //        });
+
+        //FEATHER ICON
+        feather.replace()
+
+
+        //for count
+        $('.counter').each(function() {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+
+            $({
+                countNum: $this.text()
+            }).animate({
+                countNum: countTo
+            }, {
+                duration: 6000,
+                easing: 'linear',
+                step: function() {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                    $this.text(this.countNum);
+                }
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
